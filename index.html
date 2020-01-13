@@ -3,16 +3,44 @@
     <title>Nato Phonetics JS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <nav class="navbar navbar-expand-lg navbar-light bg-light NavTheme">
-            <p>test</p>
+            <a style="color: gray;" class="navbar-brand" href="https://papyruscompendium.github.io/Nato-PhoneticsJS/">Nato Phonetics JS - 1.0</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a style="color: white;" class="nav-link" href="https://github.com/PapyrusCompendium/Nato-PhoneticsJS">Source <span class="sr-only"></span></a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a style="color: white;"class="nav-link" href="https://github.com/PapyrusCompendium/Nato-PhoneticsJS/blob/master/NP.js" target="blank_">JS<span class="sr-only"></span></a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a style="color: white;"class="nav-link" href="https://github.com/PapyrusCompendium/Nato-PhoneticsJS/blob/master/Style.css" target="blank_">CSS<span class="sr-only"></span></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <body>
-
+    <body class="text-light font-weight-light" style="background-color: rgb(45, 45, 50);">
+        <div class="content">
+            <label>Your message:</label>
+            <input type="text" class="form-control" id="message" placeholder="Enter Message">
+            <br>
+            <hr style="background-color: red;">
+            <p id="output">s</p>
+        </div>
     </body>
+    <script src="NP.js"></script>
 </html>
