@@ -1,0 +1,25 @@
+/*                          Scroll Bar                               */
+::-webkit-scrollbar {
+    width: 5px;     
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 20px;
+    background: #202225; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #202225; 
+}
+/*                          Nav Bar                               */
+.navTheme
+{
+    background-color: rgba(15, 15, 20, .9) !important;
+    border-left: 3px solid red;
+}
